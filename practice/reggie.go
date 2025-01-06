@@ -11,7 +11,7 @@ var gym bool    // This is a global variable
 func Initialize2() {
 	// Add your implementation here
 	fmt.Println("Initializing...")
-	fmt.Print("Enter your first and are you a gym rat : ")
+	fmt.Print("Enter your first name and are you a gym rat : ")
 	fmt.Scanf("%s %t", &name, &gym)
 	fmt.Println(name, gym)
 }
